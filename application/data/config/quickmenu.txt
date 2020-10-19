@@ -1,0 +1,2 @@
+秘趣采集插件,/addons/collect/jsui.php
+模板菜单,/template/b/admin

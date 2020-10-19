@@ -1,0 +1,29 @@
+{include file="../../../application/admin/view/public/head" /}
+
+<div class="page-container">
+
+    <form action="{:url('category/create')}" method="post">
+
+        <div class="layui-tab-item layui-show" style="margin-top: 2%">
+            <div class="layui-form-item">
+                <label class="layui-form-label">分类名称：</label>
+                <div class="layui-input-block">
+                    <input type="text" name="cate_name" placeholder="请输入分类名称" value="" class="layui-input">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-input-block" style="text-align: left;margin-top: 6%">
+            <!--<input type="submit" class="layui-btn" value = '保存'>-->
+            <button type="submit" class="layui-btn" >保 存</button>
+            <button class="layui-btn layui-btn-warm" type="reset">还 原</button>
+        </div>
+
+    </form>
+</div>
+
+{include file="../../../application/admin/view/public/foot" /}
+
+
+</body>
+</html>
